@@ -1,0 +1,85 @@
+html {
+    background-color: rgb(82, 82, 82);
+    color: beige;
+    text-align: center;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    float: left;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.talentRow {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border: 5px solid rgb(54, 54, 54);
+    padding: 5px;
+    margin: .5%;
+}
+
+.talentLevel {
+    flex: 1;
+    background-color: rgb(126, 125, 125);
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.talent {
+    flex: 8;
+    background-color: rgb(46, 46, 46);
+    padding: 1%;
+    margin: 1%;
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.talent:hover {
+    border: 5px solid rgba(252, 251, 182, 0.877);
+}
+
+.talent:active {
+    transform: translateY(2px);
+}
+
+/* color coded talent rows */
+
+section.talentRow.talentFifteen {
+    background-color: rgb(83, 83, 165);
+}
+
+section.talentRow.talentTwentyFive {
+    background-color: rgb(173, 61, 61);
+}
+
+section.talentRow.talentThirty {
+    background-color: rgb(197, 197, 40);
+}
+
+section.talentRow.talentThirtyFive {
+    background-color: rgb(51, 180, 51);
+}
+
+section.talentRow.talentForty {
+    background-color: rgb(201, 131, 27);
+}
+
+section.talentRow.talentFortyFive {
+    background-color: rgb(158, 92, 219);
+}
+
+section.talentRow.talentFifty {
+    background-color: rgb(161, 161, 161);
+}
